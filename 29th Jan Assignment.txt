@@ -43,10 +43,6 @@ Ans- Lambda Functions
 Ans- pip stands for "Pip Installs Packages". It is a package manager for Python, used to install and manage packages and libraries
 
 
-
-
-
-
 11. Mention a few built-in functions in python?
 Ans- print(), len(), range(), sum(), min(), max(), int(), float(), str(), list(), tuple(), set(), dict()
 
@@ -72,9 +68,6 @@ Ans-
 * Under "System Variables", scroll down and find the "Path" variable, then click "Edit".
 * Add the path to the Python installation directory to the end of the "Path" variable.
 * Restart your computer to apply the changes
-
-
-
 
 16. Is indentation required in python?
 Ans- Yes, indentation is required in Python.
