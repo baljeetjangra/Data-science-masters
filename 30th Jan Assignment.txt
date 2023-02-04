@@ -82,7 +82,13 @@ while i <= rows:
         j += 1
     print("")
     i += 1
-
+Output-
+Enter the number of rows: 5
+*
+**
+***
+****
+*****
 
 2. Inverted Right Triangle Pattern
 rows = int(input("Enter the number of rows: "))
@@ -94,7 +100,13 @@ while i >= 1:
         j -= 1
     print("")
     i -= 1
-
+Output
+Enter the number of rows: 5
+*****
+****
+***
+**
+*
 
 3. Triangle
 rows = int(input("Enter the number of rows: "))
@@ -110,6 +122,15 @@ while i <= rows:
         k += 1
     print("")
     i += 1
+    
+Output
+Enter the number of rows: 6
+     *
+    ***
+   *****
+  *******
+ *********
+***********
 
 
 7. Reverse a while loop to display numbers from 10 to 1.
