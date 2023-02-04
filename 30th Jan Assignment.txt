@@ -6,7 +6,7 @@
  >=60 and <=80      с
  below 60                D
 Ans- 
-        percentage = float(input("Enter your percentage: "))
+percentage = float(input("Enter your percentage: "))
 if percentage > 90:
     print("A")
 elif percentage > 80 and percentage <= 90:
@@ -23,7 +23,7 @@ else:
  10%                        >50000 and <= 100000
  5%                                   < = 50000
 Ans- 
-        cost_price = float(input("Enter the cost price of the bike: "))
+cost_price = float(input("Enter the cost price of the bike: "))
 if cost_price > 100000:
     tax = 0.15 * cost_price
     print("The road tax to be paid is: ", tax)
@@ -41,7 +41,7 @@ else:
   Agra                                  Taj Mahal
   Jaipur                               Jal Mahal
 Ans- 
-        city = input("Enter the city: ")
+city = input("Enter the city: ")
 if city.lower() == "delhi":
     print("Red Fort")
 elif city.lower() == "agra":
@@ -54,21 +54,17 @@ else:
 
 4. Check how many times a given number can be divided by 3 before it is less than or equal to 10.
 Ans-
-        number = int(input("Enter a number: "))
+number = int(input("Enter a number: "))
 count = 0
 while number > 10:
     number = number / 3
     count += 1
-
-
 print("The number can be divided by 3", count)
-
-
-
 
 5. Why and When to Use while Loop in Python give a detailed description with example
 Ans- In Python, the while loop is used to repeatedly execute a block of code as long as a specific condition is met.
-Example-         count = 1
+Example-         
+count = 1
 while count <= 5:
     print(count)
     count += 1
